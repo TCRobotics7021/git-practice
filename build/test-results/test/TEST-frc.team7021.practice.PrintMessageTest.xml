@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="frc.team7021.practice.PrintMessageTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-11-27T23:00:46" hostname="aarcwilt0007809" time="0.003">
+  <properties/>
+  <testcase name="testGetMessage" classname="frc.team7021.practice.PrintMessageTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
