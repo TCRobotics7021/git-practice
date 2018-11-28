@@ -16,3 +16,5 @@ Run the gradle "test" command to see if the unit tests pass.
 
 # Contributors
 Ian Eckart :)
+* Isaac Weaver
+Brayden C.
