@@ -15,6 +15,6 @@ Run the gradle "test" command to see if the unit tests pass.
 
 
 # Contributors
-Ian Eckart :)
+Ian Eckart :) Loving the new COD BO4!
 * Isaac Weaver
 Brayden C.
