@@ -11,8 +11,10 @@ public class SpeedometerTest {
         speedometer.update(1, 1000);
         Assert.assertEquals(1.0, speedometer.getSpeed(), 0.001);
 
-        speedometer.update(0, 0);
         speedometer.update(2, 2000);
         Assert.assertEquals(1.0, speedometer.getSpeed(), 0.001);
+
+        speedometer.update(2.5, 3000);
+        Assert.assertEquals(0.5, speedometer.getSpeed(), 0.001);
     }
 }
