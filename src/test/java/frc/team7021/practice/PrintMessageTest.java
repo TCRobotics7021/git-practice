@@ -8,5 +8,6 @@ public class PrintMessageTest {
     public void testGetMessage() {
         PrintMessage printMessage = new PrintMessage();
         Assert.assertEquals(printMessage.getMessage(), "Hello World!");
+
     }
 }
