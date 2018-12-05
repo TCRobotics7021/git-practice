@@ -2,6 +2,11 @@ package frc.team7021.practice;
 
 public class Speedometer {
     // TODO: You'll probably need to define some class properties here
+    public double previousDistance = 0;
+    
+    public double previousTime = 0;
+    
+    public double speeed = 0;
 
     /**
      * Update the current speed value
@@ -10,7 +15,11 @@ public class Speedometer {
      * @param timestamp The current timestamp in milliseconds
      */
     public void update(double distance, long timestamp) {
-        // TODO: Update the computed speed value
+        this.speeed = (distance-this.previousDistance) / (timestamp-this.previousTime);
+        this.previousTime = timestamp;
+        this.previousDistance = distance;
+
+       
     }
 
     /**
@@ -20,7 +29,7 @@ public class Speedometer {
      */
     public double getSpeed() {
         // TODO: Return the computed speed
-        return 0;
+        return speeed;
     }
 
 

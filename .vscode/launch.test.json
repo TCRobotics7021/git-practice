@@ -1,0 +1,30 @@
+{
+    "run": {
+        "default": "",
+        "items": [
+            {
+                "name": "git-practice",
+                "projectName": "git-practice",
+                "workingDirectory": "c:\\Users\\mlakowske\\Documents\\MitchL\\git-practice",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            }
+        ]
+    },
+    "debug": {
+        "default": "",
+        "items": [
+            {
+                "name": "git-practice",
+                "projectName": "git-practice",
+                "workingDirectory": "c:\\Users\\mlakowske\\Documents\\MitchL\\git-practice",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            }
+        ]
+    }
+}
